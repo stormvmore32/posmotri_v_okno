@@ -15,7 +15,7 @@ html {
   align-items: center;
   margin: auto;
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: 'Fira Sans Condensed', Arial, sans-serif;
   font-size: 18px;
   background-color: #1b1919;
 }
@@ -67,7 +67,7 @@ ol {
 
 .result__video-container {
   width: 711px;
-  height: 386px;
+  height: 386px; /*сильна подумать как убрать изменение высоты блока*/
   position: relative;
 }
 
@@ -86,7 +86,7 @@ ol {
 
 .search-form__fieldset-title {
   color: #FFF;
-  font-family: Fira Sans Condensed;
+  font-family: Fira Sans Condensed, Arial, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -104,7 +104,7 @@ ol {
 
 .search-form__textfield {
   color: rgba(255, 255, 255, 0.70);
-  font-family: Fira Sans Condensed;
+  font-family: Fira Sans Condensed, Arial, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -136,7 +136,7 @@ ol {
 .button {
   background-color: transparent;
   color: #FFF;
-  font-family: Fira Sans Condensed;
+  font-family: Fira Sans Condensed, Arial, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -162,7 +162,7 @@ ol {
 .title {
   color: #FFF;
   padding-bottom: 26px;
-  font-family: Oswald;
+  font-family: Oswald, Arial, sans-serif;
   font-size: 75px;
   font-style: normal;
   font-weight: 700;
@@ -186,7 +186,7 @@ ol {
 }
 
 .content__list-item:not(:last-child) {
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .content__card-link_current {
@@ -211,7 +211,7 @@ ol {
 
 .content__video-card-title {
   color: #FFF;
-  font-family: Oswald;
+  font-family: Oswald, Arial, sans-serif;
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
@@ -222,7 +222,7 @@ ol {
 
 .content__video-card-description {
   color: #FFF;
-  font-family: Fira Sans Condensed;
+  font-family: Fira Sans Condensed, Arial, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
