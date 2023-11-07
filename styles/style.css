@@ -11,7 +11,7 @@ html {
 .page {
   inline-size: 1200px;
   block-size: 100%;
-  /* display:flex; */
+  display:flex;
   margin: auto;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
@@ -54,6 +54,7 @@ ol {
   justify-content: center;
   align-items: flex-end;
   padding: 133px 30px;
+  min-width: 1140px;
 }
 
 .result {
@@ -155,7 +156,6 @@ ol {
 
 .content__details {
   width: 100%;
-  height: 100%;
 }
 
 .title {
