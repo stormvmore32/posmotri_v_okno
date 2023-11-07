@@ -285,7 +285,7 @@ ol {
   text-underline-offset: 2px;
 }
 
-/*Активные состояния*/
+/*Активные состояния */
 .button:active {
   background-color: #545050;
 }
